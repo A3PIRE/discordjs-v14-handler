@@ -47,5 +47,5 @@ client.login(config.TOKEN)
     })
 
 process.on("unhandledRejection", async (err) => {
-    console.log(`[ANTI - CRUSH] Unhandled Rejection : ${err}`.red.bold)
+    console.log(`[ANTI - CRASH] Unhandled Rejection : ${err}`.red.bold)
 })
